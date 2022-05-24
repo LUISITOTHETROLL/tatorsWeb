@@ -1,26 +1,105 @@
-<div class="header">
-  <div class="logo">
-    <img src="https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png">
+
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+ <img class="bannerToGuapo" [src]="srcDeBanner"/>
+</div>
+
+<div class="linea"><br></div>
+
+<div class="content" role="main">
+
+  <!-- Highlight Card -->
+  
+  <div class="card highlight-card card-small">
+
+  
   </div>
+  <div class="papi">
+ <!--
+  <div class="body">
+    <div style="width: 100%; height: 100%; position: relative">
+      <div id="map">
+        <img [src]="cadenaDeSrc2"  />
+        <img [src]="cadenaDeSrc" />
+      </div>
+    </div>
+  -->
+  <p>nft works!</p>
+  
+   
+  <button class="sida3" (click)="nextImage()" >
+
+    <img class="flechipolla" [src]="srcDeFlecha" height="100">
+    </button>
+
+    <button class="sida4" (click)="nextImage2()" >
+      <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+    </button>
+
+    <img class="imagenFondo" [src]="cadenaDeSrc" height="500"/>
+
+
+    <img class="imagenDelante" [src]="cadenaDeSrc2" height="200"/>
+
+
+    <div class=flechas2>
+      <button class="sida5" (click)="nextImage()" style="bottom:350px">
+    
+        <img class="flechipolla" [src]="srcDeFlecha" height="100" >
+        </button>
+    
+        <button class="sida6" (click)="nextImage2()" style="bottom:350px">
+          <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+        </button>
+      </div>
+
+      <div class=flechas3>
+        <button class="sida7" (click)="nextImage()" style="bottom:190px;right:5.7%">
+      
+          <img class="flechipolla" [src]="srcDeFlecha" height="100" >
+          </button>
+      
+          <button class="sida8" (click)="nextImage2()" style="bottom:190px;left:5.7%">
+            <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+          </button>
+        </div>
+
+       
+    </div>
+
+
+
+
+
+  
+
+
+
+
 </div>
-<div class="resource-list">
-  <h2>
-      Here are some resources to help you on your Angular + Netlify journey:
-  </h2>
-  <ul>
-    <li>
-      <a href="https://github.com/netlify-templates/angular-quickstart">The Angular Quickstart repo</a>
-    </li>
-    <li>
-      <a href="https://www.netlify.com/tags/angular/">Netlify Blog: Angular posts</a>
-    <li>
-      <a href="https://docs.netlify.com/">Netlify Docs</a>
-    </li>
-    <li>
-      <a href="https://angular.io/">Angular Docs</a>
-    </li>
-  </ul>
+
+
+
+<button onclick="location.href='https://www.facebook.com'">Llévame a otro lado</button>
+<!--
+<div class="body">
+  <div style="width: 100%; height: 100%; position: relative">
+    <div id="map">
+      <img [src]="cadenaDeSrc2" />
+      <img [src]="cadenaDeSrc" />
+    </div>
+  </div>
+
 </div>
-<footer class="footer">
-  Made with <a href="https://netlify.com"><img src="https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646714899/netliheart_ezlkim.svg" alt="Netlify Logo" /></a> for you!
-</footer>
+-->
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>

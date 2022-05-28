@@ -28,23 +28,25 @@
   <p>nft works!</p>
   
    
-  <button class="sida3" (click)="nextImage()" >
+  <button class="sida3" (click)="previousImage()" >
 
     <img class="flechipolla" [src]="srcDeFlecha" height="100">
     </button>
 
-    <button class="sida4" (click)="nextImage2()" >
+    <button class="sida4" (click)="nextImage()" >
       <img class="flechipolla"  [src]="srcDeFlecha" height="100">
     </button>
 
+    <div class="counter">
     <img class="imagenFondo" [src]="cadenaDeSrc" height="500"/>
 
 
-    <img class="imagenDelante" [src]="cadenaDeSrc2" height="200"/>
-
+    <img class="over" [src]="cadenaDeSrc2" height="500"/>
+    <img class="over2" [src]="cadenaDeSrc3" height="500"/>
+  </div>
 
     <div class=flechas2>
-      <button class="sida5" (click)="nextImage()" style="bottom:350px">
+      <button class="sida5" (click)="previousImage2()" style="bottom:350px">
     
         <img class="flechipolla" [src]="srcDeFlecha" height="100" >
         </button>
@@ -55,12 +57,12 @@
       </div>
 
       <div class=flechas3>
-        <button class="sida7" (click)="nextImage()" style="bottom:190px;right:5.7%">
+        <button class="sida7" (click)="previousImage3()" style="bottom:190px;right:5.7%">
       
           <img class="flechipolla" [src]="srcDeFlecha" height="100" >
           </button>
       
-          <button class="sida8" (click)="nextImage2()" style="bottom:190px;left:5.7%">
+          <button class="sida8" (click)="nextImage3()" style="bottom:190px;left:5.7%">
             <img class="flechipolla"  [src]="srcDeFlecha" height="100">
           </button>
         </div>
@@ -79,9 +81,10 @@
 
 </div>
 
+<br>
 
-
-<button onclick="location.href='https://www.facebook.com'">Llévame a otro lado</button>
+<button class="el_link" onclick="location.href='https://opensea.io/collection/tatorshitler'">^^^^^^^^^^^^ <br>
+    Purchase now your own custom Tator NFT</button>
 <!--
 <div class="body">
   <div style="width: 100%; height: 100%; position: relative">

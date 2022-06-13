@@ -36,7 +36,7 @@ export class HitlerComponent implements OnInit {
       {id:121,name:"sida12",url:"./../../assets/images/pelos/naranja.png"},
       {id:122,name:"sida13",url:"./../../assets/images/pelos/gris.png"},
       
-      {id:125,name:"sida5",url:'./../../assets/images/nftpelorosa2.png'},
+      {id:125,name:"sida5",url:'./../../assets/images/pelos/calvo.png'},
       ]
 
       product3:any[]=[

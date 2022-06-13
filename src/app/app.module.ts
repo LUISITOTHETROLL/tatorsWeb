@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HitlerComponent } from './components/hitler/hitler.component';
 import { MainmenuComponent } from './components/mainmenu/mainmenu.component';
+import { KimComponent } from './components/kim/kim.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HitlerComponent,
-    MainmenuComponent
+    MainmenuComponent,
+    KimComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,235 @@
+.content {
+  
+    text-align: center;
+   background-color: rgb(161, 1, 213);
+  }
+  
+  .counter {
+    position: relative;
+      display: inline;
+  }
+  
+  .over {
+    position:absolute;
+    left:1%;
+    bottom: 39%;
+    
+    
+  }
+  
+  .over2 {
+    position:absolute;
+    left:1%;
+    bottom: 50%;
+    
+    
+  }
+  
+  .toolbar {
+    
+    text-align: center;
+   background-color: rgb(65, 0, 86);
+  }
+  
+  .linea {
+    background-color: rgb(113, 0, 150);
+  }
+  
+  .flechipolla {
+  background: transparent;
+  width: 100px;
+      height: auto;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  .flechipolla:hover{
+    -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+  .troll {
+    width: 100px;
+      height: auto;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      border-radius: 150px;
+  }
+
+  .troll:hover {
+    -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+  .papi {
+    
+    
+    
+  }
+  
+  
+  
+    .imagenFondo {
+      position: relative;
+      top: 0;
+      left: 0;
+      border: 4px rgb(255, 0, 170) solid;
+      
+    
+    }
+    .imagenDelante {
+      
+      top: 30%;
+      right: 40%;
+      border: 4px rgb(128, 0, 79) solid;
+      
+      position: absolute;
+    }
+  
+    .sida3{ transform: scale(-1, -1); 
+      transform: rotate(90deg);
+      background-color: blueviolet;
+    
+    position: relative;
+     
+  
+  
+    float: left;
+    cursor:pointer;
+      }
+  
+     
+      
+      .el_link:hover {
+        background-color: #8000b3; /* Green */
+        color: white;
+        font-size:26px;
+        font-size-adjust: 10px;
+      }   
+      .el_link2:hover {
+        background-color: #8000b3; /* Green */
+        color: white;
+        font-size:20px;
+        font-size-adjust: 3px;
+      }   
+  .el_link{
+    text-align: center;
+    display:block; 
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    background-color: rgb(113, 0, 150);
+    color: hsl(39, 100%, 59%);
+    border: 2px solid rgb(161, 1, 213); 
+    padding: 32px 16px;
+    font-size: 22px;
+    border-radius: 6px;
+   /*text-shadow: -1px 0 rgb(204, 36, 255), 0 1px rgb(255, 0, 242), 1px 0 rgb(255, 37, 244), 0 -1px rgb(200, 19, 255);*/
+   cursor:pointer;
+  }
+
+  .el_link2{
+    text-align: center;
+    display:block; 
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    background-color: rgb(113, 0, 150);
+    color: hsl(39, 100%, 59%);
+    border: 2px solid rgb(161, 1, 213); 
+    padding: 22px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+   /*text-shadow: -1px 0 rgb(204, 36, 255), 0 1px rgb(255, 0, 242), 1px 0 rgb(255, 37, 244), 0 -1px rgb(200, 19, 255);*/
+   cursor:pointer;
+  }
+
+      .sida5{ transform: scale(-1, -1); 
+        transform: rotate(90deg);
+        background-color: blueviolet;
+      
+      position: relative;
+       
+      float: left;
+      cursor:pointer;
+      
+        }
+        .sida7{ transform: scale(-1, -1); 
+          transform: rotate(90deg);
+          background-color: blueviolet;
+        
+        position: relative;
+         
+        float: left;
+        cursor:pointer;
+          }
+          
+      .sida4{ 
+        
+        transform: scale(-1, 1); 
+        transform: rotate(-90deg);
+        background-color: blueviolet;
+      
+      position: relative;
+       
+      float: right;
+      cursor:pointer;
+      
+      }
+      
+  
+      .sida6{ 
+        
+        transform: scale(-1, 1); 
+        transform: rotate(-90deg);
+        background-color: blueviolet;
+      
+      position: relative;
+      float: right;
+      cursor:pointer;
+      }
+  
+      .sida8{ 
+        
+        transform: scale(-1, 1); 
+        transform: rotate(-90deg);
+        background-color: blueviolet;
+      
+      position: relative;
+      float: right;
+      cursor:pointer;
+      }
+  
+      .flechas2{
+        
+        
+      }
+  /*
+      .body {
+        width: 100%;
+        height: 100%;
+      }
+      #imagenes {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        resize: both;
+        overflow: auto;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        resize: both;
+        overflow: auto;
+      }
+      
+      img:nth-of-type(1) {
+        max-width: 5%;
+        transform: translate(400%, 100%);
+        position: absolute;
+      }
+      
+      img:nth-of-type(2) {
+        width: 500px;
+      }
+      */
